@@ -1,0 +1,7 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", ":disableRateLimiting", ":noUnscheduledUpdates"],
+  "semanticCommits": "enabled",
+  "rebaseWhen": "conflicted",
+  "rangeStrategy": "pin"  
+}
