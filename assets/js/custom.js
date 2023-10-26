@@ -108,7 +108,7 @@ fancybox_items.forEach(item => {
 
   let currentH3 = document.createElement("h3");
   currentH3.className = "title";
-  (item.parentNode.classList.contains("gfx")) ? currentH3.textContent += "GFX" : currentH3.textContent += "Website";
+  (item.parentNode.classList.contains("gfx")) ? currentH3.textContent += "Pascal2" : currentH3.textContent += "Pascal1";
   currentDiv.appendChild(currentH3);
 
   let currentSpan = document.createElement("span");
